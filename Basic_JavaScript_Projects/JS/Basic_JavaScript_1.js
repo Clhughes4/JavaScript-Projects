@@ -33,3 +33,11 @@ document.write(Mom, Dad, Daughter, Son, Pet);
 
 
 document.write(75 + 45 - 37 + 47 + 16 - 47);
+
+function keydownFunction() {
+    document.getElementById("demo").style.backgroundColor = "yellow";
+}
+
+function keyupFunction() {
+    document.getElementById("demo").style.backgroundColor = "purple";
+}
