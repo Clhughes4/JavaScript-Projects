@@ -1,0 +1,40 @@
+.form-container {
+    background-color: rgb(228, 216, 148);
+    border-radius: 6px;
+    padding: 12px;
+    box-shadow: 5px 10px lightslategray ;
+    width: 40%;
+}
+
+input[type=text], select {
+    color: rgb(116, 111, 111);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 6px, 0;
+    display: inline-block;
+    border: 2px solid #c3c3c3;
+    border-radius: 7px;
+    box-sizing: border-box
+}
+
+input[type=submit] {
+    width: 150px;
+    height: 30px;
+    background-color: rgba(14, 14, 92, 0.849);
+    color:#fff;
+    padding: 14px, 16px;
+    margin: 6px 0;
+    border: rgb(177, 171, 171);
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(35, 35, 128, 0.849);
+}
+
+
