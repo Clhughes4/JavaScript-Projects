@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bald Eagles</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="CSS/one_page_website.css"/>
+	</head>
+		<header>
+			<h1 class="p_1">Bald Eagles in All Their Glory</h1>
+		</header>
+		<br>
+	<body>
+		<nav>
+			<ul>
+				<a href="#home" id="link"><li>HOME</li></a>
+				<a href="#gallery" id= "link"><li>GALLERY</li></a>
+				<a href="#videos" id="link"><li>VIDEOS</li></a>
+			</ul>
+		</nav>
+		<div id="home">
+		</div>
+		<br>
+		
+		<section>
+			<h1>GALLERY</h1>
+		</section>
+
+			<div id="gallery">
+
+				<div class="row">
+					<div class="col">
+						<img src="./images/baldEagle_1.png" alt="" style="width:100%; height: 200px"
+						onclick="openLightbox();toSlide(1)" class="hover-shadow">
+
+					</div>
+					<div class="col">
+						<img src="./images/baldEagle_2.png" alt="" style="width:100%; height: 200px"
+						onclick="openLightbox();toSlide(2)" class="hover-shadow">
+
+					</div>
+					<div class="col">
+						<img src="./images/baldEagle_3.png" alt="" style="width:100%; height: 200px"
+						onclick="openLightbox();toSlide(3)" class="hover-shadow">
+
+					</div>
+					<div class="col">
+						<img src="./images/baldEagle_4.jpg" alt="" style="width:100%; height: 200px;"
+						onclick="openLightbox();toSlide(4)" class="hover-shadow">
+
+					</div>
+				</div>
+
+					<div id="Lightbox" class="modal">
+						<span class="close pointer" onclick="closeLightbox()">&times;</span>
+						<div class="modal-content">
+							<div class="slide">
+								<img src="./images/baldEagle_1.png" alt="" style="height:400px" class="">
+							</div>
+							<div class="slide">
+								<img src="./images/baldEagle_2.png" alt="" style="height:400px" class="">
+							</div>    
+							<div class="slide">
+								<img src="./images/baldEagle_3.png" alt="" style="height:400px" class="">
+							</div>
+							<div class="slide">
+								<img src="./images/baldEagle_4.jpg" alt="" style="height:400px" class="">
+							</div>
+					
+							<a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+							<a class="next" onclick="changeSlide(1)">&#10095;</a>
+							<div class="dots">
+								<div class="col">
+										<img class="modal-preview hover-shadow" src="./images/baldEagle_1.png" alt="" style="width:100%; height: 200px" onclick="toSlide(1)">
+								</div>
+								<div class="col">
+										<img class="modal-preview hover-shadow" src="./images/baldEagle_2.png" alt="" style="width:100%; height: 200px" onclick="toSlide(2)">
+								</div>
+								<div class="col">
+										<img class="modal-preview hover-shadow" src="./images/baldEagle_3.png" alt="" style="width:100%; height: 200px" onclick="toSlide(3)">
+								</div>
+								<div class="col">
+										<img class="modal-preview hover-shadow" src="./images/baldEagle_4.jpg" alt="" style="width:100%; height: 200px" onclick="toSlide(4)">
+								</div>
+							</div><br><br>
+						</div>
+
+					</div>
+				</div>
+	<section>
+		</div>
+		<h1>VIDEOS</h1>
+		<div id="videos">
+		<p>
+			<iframe width="250" height="150" src="https://www.youtube.com/embed/cts36CPzhYM" 
+			frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</p>
+		</div>
+	</section>
+	<br><br>
+	
+	<section>
+		<div class="contact-info">
+			<p1>Contact Us<br>
+			Please Enter Your Contact Info
+			</p1>
+			<div class="form-contact">
+				<form action="" method="get">
+					Name: <input type="text" name="Name"><br>
+					Email: <input type="text" name="Email"><br>
+					Phone: <input type="text" name="Phone"><br>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+
+		<script src="JS/one_page_website.js"></script>
+	</body>
+	
+	<footer>
+		<div>
+			www.thebaldeagle.com &nbsp;|&nbsp; &copy; 2019
+	</footer>
+</html>
